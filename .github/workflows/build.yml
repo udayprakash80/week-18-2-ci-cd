@@ -21,4 +21,7 @@ jobs:
       - name: Run Build
         run: npm run build
 
+      - name: Run Prisma generate
+        run: npm run db:generate
+
 
