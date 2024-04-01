@@ -22,7 +22,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./Dockerfile
+          file: ./docker/Dockerfile.user
           push: true
           tags: udayprakash80/docker_test_withpipeline:latest  # Replace with your Docker Hub username and repository
 
